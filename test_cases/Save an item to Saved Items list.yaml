@@ -1,4 +1,3 @@
-uuid: 8307e335-0068-4837-adb6-b0f525936e99
 customSteps: |
   click "Block" using OCR only using the mouse
   click "Saved Items"
@@ -19,5 +18,3 @@ customSteps: |
   check that page contains stored value "productNameInSavedContainer" above "Add to cart"
   click saved value "productNameInSavedContainer"
 labels: []
-disabled: false
-applicationId: NihDdLMoqyeKutE3y

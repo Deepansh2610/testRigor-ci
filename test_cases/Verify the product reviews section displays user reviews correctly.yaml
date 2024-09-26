@@ -1,4 +1,3 @@
-uuid: 039eb858-dce0-46cb-a26e-15941fe8fb78
 customSteps: |
   click "Block" using OCR only using the mouse
   enter "iPhone" into "What can we help you find today?"
@@ -18,5 +17,3 @@ customSteps: |
   grab value from "review-count" in the context of "1 star rating" and save it as "1-starCount"
   check that expression "${5-starCount}+${4-starCount}+${3-starCount}+${2-starCount}+${1-starCount}" itself is equal to saved value "numberOfReviews"
 labels: []
-disabled: false
-applicationId: NihDdLMoqyeKutE3y
