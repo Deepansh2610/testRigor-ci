@@ -38,7 +38,7 @@ jobs:
           curl -X POST \
           -H 'Content-type: application/json' \
           -H 'auth-token: ca0326e7-beb0-428b-9e47-ef8ebe2b4535' \
-          --data "${combined_json}" \
+          --data "${combined_json}", "explicitMutations": true \
           https://api.testrigor.com/api/v1/apps/R8gWCdKfLvZbE85ks/retest
           
           sleep 10
